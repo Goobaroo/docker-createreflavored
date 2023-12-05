@@ -2,7 +2,7 @@
 
 set -x
 
-FORGE_VERSION=1.19.2-43.2.8
+FORGE_VERSION=1.19.2-43.3.5
 cd /data
 
 if ! [[ "$EULA" = "false" ]] || grep -i true eula.txt; then
@@ -12,9 +12,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f 'CRF-Server-Files-6.42b.zip' ]]; then
+if ! [[ -f 'CRF-Server-Files-6.43.zip' ]]; then
 	rm -fr config kubejs libraries mods *SERVER.zip forge*.jar
-	curl -Lo 'CRF-Server-Files-6.42b.zip' 'https://edge.forgecdn.net/files/4762/140/CRF-Server-Files-6.42b.zip' && unzip -u -o 'CRF-Server-Files-6.42b.zip' -d /data
+	curl -Lo 'CRF-Server-Files-6.43.zip' 'https://edge.forgecdn.net/files/4928/280/CRF-Server-Files-6.43.zip' && unzip -u -o 'CRF-Server-Files-6.43.zip' -d /data
   curl -Lo forge-installer.jar 'https://maven.minecraftforge.net/net/minecraftforge/forge/'${FORGE_VERSION}'/forge-'${FORGE_VERSION}'-installer.jar'
 	java -jar forge-installer.jar --installServer && rm -f forge-installer.jar
 fi
