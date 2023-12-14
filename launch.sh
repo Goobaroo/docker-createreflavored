@@ -12,9 +12,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f 'CRF-Server-Files-6.44.zip' ]]; then
+if ! [[ -f 'CRF-Server-Files-6.44b.zip' ]]; then
 	rm -fr config kubejs libraries mods *SERVER.zip forge*.jar
-	curl -Lo 'CRF-Server-Files-6.44.zip' 'https://edge.forgecdn.net/files/4943/778/CRF-Server-Files-6.44.zip' && unzip -u -o 'CRF-Server-Files-6.44.zip' -d /data
+	curl -Lo 'CRF-Server-Files-6.44b.zip' 'https://edge.forgecdn.net/files/4957/35/CRF-Server-Files-6.44b.zip' && unzip -u -o 'CRF-Server-Files-6.44b.zip' -d /data
   curl -Lo forge-installer.jar 'https://maven.minecraftforge.net/net/minecraftforge/forge/'${FORGE_VERSION}'/forge-'${FORGE_VERSION}'-installer.jar'
 	java -jar forge-installer.jar --installServer && rm -f forge-installer.jar
 fi
