@@ -7,7 +7,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="Create Re-Flavored-6.44b"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/801/833/638166120480589980.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=Create-Re-Flavored:25565
+LABEL homepage.widget.url=udp://Create-Re-Flavored:25565
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
