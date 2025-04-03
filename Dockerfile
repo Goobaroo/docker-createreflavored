@@ -2,9 +2,9 @@
 
 FROM openjdk:17.0.2-jdk-buster
 
-LABEL version="6.44b"
+LABEL version="6.44"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="Create Re-Flavored-6.44b"
+LABEL homepage.name="Create Re-Flavored-6.44"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/801/833/638166120480589980.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://Create-Re-Flavored:25565

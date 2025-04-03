@@ -1,4 +1,4 @@
-# [Create Re-Flavored-6.44b](https://www.curseforge.com/minecraft/modpacks/create-re-flavored) on Curseforge
+# [Create Re-Flavored-6.44](https://www.curseforge.com/minecraft/modpacks/create-re-flavored) on Curseforge
 
 <!-- toc -->
 
@@ -18,7 +18,7 @@
 
 This container is built to run on an [Unraid](https://unraid.net) server, outside of that your milliage will vary.
 
-The docker on first run will download the same version as tagged of `Create Re-Flavored-6.44b` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on first run will download the same version as tagged of `Create Re-Flavored-6.44` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run it will simply start the server.
 
@@ -37,7 +37,7 @@ As the end user, you are repsonsible for accepting the EULA from Mojang to run t
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms3072m -Xmx6144m"
-* MOTD "Create Re-Flavored-6.44b Server Powered by Docker"
+* MOTD "Create Re-Flavored-6.44 Server Powered by Docker"
 * LEVEL world
 
 ### Adding Minecraft Operators
